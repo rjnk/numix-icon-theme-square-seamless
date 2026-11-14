@@ -1,35 +1,17 @@
-# Numix Square
+# Numix Square Seamless
 
-Square is an app icon theme for Linux from the [Numix project](https://numixproject.github.io/) intended to be used on top of our [base icon theme](https://github.com/numixproject/numix-icon-theme). This readme provides information on [installation](https://github.com/numixproject/numix-icon-theme-square/#installation), [icon requests](https://github.com/numixproject/numix-icon-theme-square/#icon-requests) and [hardcoded icons](https://github.com/numixproject/numix-icon-theme-square/#hardcoded-icons). Licensed under the GPL-3.0+
+Numix Square is an app icon theme for Linux from the [Numix project](https://numixproject.github.io/). This repository is a fork with a more ergonomic installation method. Licensed under the GPL-3.0+
 
 ![Square Screenshot](https://user-images.githubusercontent.com/27789806/35548117-fc605166-0542-11e8-8dd4-a588753bb0f8.png)
 
 ## Install
 
-If using this with our [base icon theme](https://github.com/numixproject/numix-icon-theme) make sure you install both parts using the same method. This makes sure that the panel icons keep working as intended.
-
-### Distro Packages
-
-If you use Debian, Fedora, Ubuntu or any of their derivatives then you're sorted! Numix Square is available from the official repositories.
-
-| Distro | Install Command |
-| :----: | :----:|
-| ![Fedora] | `sudo dnf install numix-icon-theme-square` |
-| ![Debian]&nbsp;![Ubuntu]| `sudo apt install numix-icon-theme-square` |
-
-### Nightly Packages
-
-If you use Ubuntu or any of its derivatives (including Mint and elementary OS) you can use our Numix PPA to get the very latest version of the theme. Fire up a Terminal and run the following:
-
 ```bash
-sudo add-apt-repository ppa:numix/ppa
-sudo apt update
-sudo apt install numix-icon-theme-square
+mkdir -p ~/.icons
+git clone https://github.com/rjnk/numix-icon-theme-square-seamless ~/.icons/numix-icon-theme-square-seamless
 ```
 
-For Arch users there's a [community maintained package](https://aur.archlinux.org/packages/numix-icon-theme-square-git/) in the AUR which builds from this GitHub.
-
-For Gentoo users there's a [community maintained ebuild](https://github.com/BlueManCZ/edgets/blob/master/x11-themes/numix-icon-theme/numix-icon-theme-9999.ebuild) in the [edgets overlay](https://github.com/BlueManCZ/edgets) which builds icons directly from [numix-core](https://github.com/numixproject/numix-core) repository, so you receive latest commits.
+Voilà - the Numix Square appears as an icon theme in Gnome tweaks (or your other DE icon settings).
 
 ## Issues & Requests
 
